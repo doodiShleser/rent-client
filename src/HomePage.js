@@ -83,7 +83,7 @@ class HomePage extends Component {
         let url = "";
         let settings = "";
         if(this.state.key <= 6){
-            url = "http://localhost:3000/all";
+            url = "http://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com//all";
             settings = {
                 method: 'POST',
                 headers: {
@@ -94,7 +94,7 @@ class HomePage extends Component {
         }
         else{
 
-            url = "http://localhost:3000/send";
+            url = "http://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/send";
             settings = {
                 method: 'POST',
                 headers: {

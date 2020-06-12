@@ -14,7 +14,7 @@ class Last extends Component{
     
     getContracts = () => {    
         let self = this;
-        let url = "http://localhost:3000/"+this.state.user;
+        let url = "http://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/"+this.state.user;
         console.log(url,typeof url);
         
         Axios.get(url)

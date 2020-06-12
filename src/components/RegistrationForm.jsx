@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import '../index.css';
 
-const API_EXISTS_URL = "http://localhost:3000/userExists";
-const API_REGISTER_URL = "http://localhost:3000/register";
+const API_EXISTS_URL = "http://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/userExists";
+const API_REGISTER_URL = "http://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/register";
 
 class RegistrationForm extends Component  {
     constructor(props){
