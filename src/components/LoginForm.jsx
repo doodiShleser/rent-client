@@ -1,8 +1,8 @@
 import React, {Component } from 'react';
 import axios from 'axios';
 import '../index.css';
-const API_BASE_URL = "https://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/login";
-const API_EXISTS_URL = "https://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/userExists";
+const API_BASE_URL = "http://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/login";
+const API_EXISTS_URL = "http://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/userExists";
 class LoginForm extends Component  {
     constructor(props){
         super(props);
