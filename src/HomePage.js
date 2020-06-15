@@ -94,7 +94,7 @@ class HomePage extends Component {
         }
         else{
 
-            url = "http://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/send";
+            url = "https://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/send";
             settings = {
                 method: 'POST',
                 headers: {
