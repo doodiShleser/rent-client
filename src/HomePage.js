@@ -83,7 +83,7 @@ class HomePage extends Component {
         let url = "";
         let settings = "";
         if(this.state.key <= 6){
-            url = "https://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com//all";
+            url = "https://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/all";
             settings = {
                 method: 'POST',
                 headers: {

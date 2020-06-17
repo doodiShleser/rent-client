@@ -1,7 +1,7 @@
 import React, {Component } from 'react';
 import axios from 'axios';
 import '../index.css';
-const URL = "https://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/"
+const URL = "https://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/" // "http://localhost:3000/"
 const API_BASE_URL = URL +"login";
 const API_EXISTS_URL = URL+"userExists";
 class LoginForm extends Component  {
@@ -28,6 +28,7 @@ class LoginForm extends Component  {
             "email":this.state.email,
             "password":this.state.password,
         }
+        console.log("email: ", payload.email);
         let self = this;
         axios.post(API_EXISTS_URL, {email: self.state.email} )
         .then(function (response) {              

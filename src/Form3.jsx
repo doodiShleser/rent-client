@@ -70,7 +70,7 @@ class Form3 extends Component
                             <div className=" inner-addon left-addon  col-12">
                                 <Input
                                 inputType={"text"}
-                                //title={"הכנס סכום שכירות כולל"}
+                                title={"הכנס סכום שכירות כולל"}
                                 name={"pay"}
                                 placeholder={this.props.data["pay"]}
                                 handleChange={this.handleInput}

@@ -17,6 +17,7 @@ class Last extends Component{
         let url = "https://rent-serverenv.eba-wn3cgdsr.eu-west-1.elasticbeanstalk.com/"+this.state.user;
         console.log(url,typeof url);
         
+        //fetch(url)
         Axios.get(url)
         .then(response => {
             let userData = [];
@@ -36,7 +37,7 @@ class Last extends Component{
             self.setState({
                 table: userData 
             });
-        console.log("end to render");
+        console.log("end to render", url);
         
         })
         .catch(error => {
